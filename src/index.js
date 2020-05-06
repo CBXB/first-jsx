@@ -4,10 +4,21 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const element = (
+  <div>
+    <h1>Hello Dojo!</h1>
+    <h3>Things I need to do</h3>
+    <ul>
+      <li>Learn Java Scrip</li>
+      <li>Learn Python</li>
+      <li>Learn C# </li>
+      <li>Graduate</li>
+    </ul>
+  </div>
+);
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  element,
   document.getElementById('root')
 );
 
